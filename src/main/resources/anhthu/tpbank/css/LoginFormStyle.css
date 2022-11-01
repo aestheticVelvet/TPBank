@@ -1,0 +1,136 @@
+.vbox_background{
+    -fx-background-image:url("../imgs/backgroundImage.png");
+    -fx-background-size: 100% 100%;
+}
+
+.button {
+    -fx-background-color: #7B50F7;
+    -fx-font-size: 15px;
+    /*-fx-text-fill: #FF9800;*/
+    -fx-text-fill: #fff;
+    -fx-background-radius: 4px;
+}
+
+.button:hover{
+    -fx-opacity: 0.8;
+    -fx-cursor: hand;
+}
+
+.button:focused {
+    -fx-opacity: 0.8;
+}
+
+.textbox {
+    -fx-text-box-border: none;
+    -fx-text-fill: #7B35BB;
+    -fx-font-size: 20px;
+    -fx-prompt-text-fill: #7B35BB ;
+    -fx-font-style: italic;
+    -fx-prompt-text-underline: true;
+    -fx-border-color: #FF9800;
+    -fx-border-width: 0 0 1 0;
+    /*-fx-padding: 0 0 0 0;*/
+}
+
+.hbox_background{
+    -fx-background-color: #FEFEFE;
+}
+
+
+
+.mainmenu_balance_background {
+    -fx-background-color: #7B50F7;
+    -fx-background-radius: 12px;
+}
+
+.textbox:focused{
+    -fx-prompt-text-fill: #fff;
+    -fx-color: -fx-focused-base;
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+}
+
+.textboxError {
+    -fx-prompt-text-fill: red;
+    -fx-color: -fx-focused-base;
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-border-color: red;
+    -fx-border-width: 2 2 2 2;
+}
+
+.capchaLabel {
+    -fx-text-fill: #7B35BB;
+    -fx-font-style: italic;
+    -fx-background-color: #e8bcf0;
+
+}
+
+   .choice-box .context-menu { -fx-background-color: #7B35BB; }
+
+   .choice-box .menu-item:focused { -fx-background-color: #7B35BB; }
+
+   .choice-box .menu-item > .label { -fx-text-fill: #FFF; }
+
+   .choice-box .menu-item:focused > .label { -fx-text-fill: #FFF; }
+
+.choice-box {
+    -fx-background-color: #fff;
+    -fx-choice-box-border: none;
+    -fx-mark-color: #FF9800;
+}
+   .choice-box > .label {
+       -fx-text-fill: #7B35BB;
+       -fx-font-size: 24px;
+       -fx-border-color: #FF9800;
+       -fx-border-width: 0 0 1 0;
+   }
+
+.mainMenu_confirm_button {
+    -fx-background-color: linear-gradient(from 0.0% 100.0% to 36.4929% 17.5355%, #e7b463 0.0%, #e7b463 11.4094%, #e7b463 23.1544%, #fedaa0 100.0%);
+    -fx-font-size: 24px;
+    -fx-font-style: bold;
+    /*-fx-text-fill: #FF9800;*/
+    -fx-text-fill:  #7b35bb;
+
+    -fx-background-radius: 4px;
+}
+
+.mainMenu_confirm_button :hover{
+    -fx-opacity: 0.8;
+    -fx-cursor: hand;
+}
+
+.mainMenu_cancel_button {
+    -fx-background-color: #E2E2E2 ;
+    -fx-font-size: 24px;
+    -fx-font-style: bold;
+    /*-fx-text-fill: #FF9800;*/
+    -fx-text-fill: #e5b163;
+
+    -fx-background-radius: 4px;
+}
+
+.amountBox {
+    -fx-text-box-border: none;
+    -fx-text-fill: #7B35BB;
+    -fx-font-size: 30px;
+    -fx-border-color: #FF9800;
+    -fx-border-width: 0 0 1 0;
+}
+
+.amountBox:focused{
+    -fx-color: -fx-focused-base;
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+}
+
+.cardNumberBox {
+    -fx-text-box-border: none;
+    -fx-text-fill: #e5b163;
+    -fx-font-size: 30px;
+    -fx-border-color: #FF9800;
+    -fx-border-width: 0 0 1 0;
+}
+
+.cardNumberBox:focused{
+    -fx-color: -fx-focused-base;
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+}
